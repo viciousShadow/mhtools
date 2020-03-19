@@ -120,7 +120,7 @@ def sldpack(t):
 				dstptr = dstptr + 1
 				srcptr = srcptr + 1
 
-	return ''.join(dst)
+	return b''.join(dst)
 
 
 def sldunpack(t):
