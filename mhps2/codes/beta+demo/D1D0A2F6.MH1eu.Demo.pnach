@@ -1,0 +1,54 @@
+gametitle=Monster Hunter Demo [SLED_530.83] (EU-En/Fr/De/It/Es) [D1D0A2F6] (included in Devil May Cry 3)
+comment=pnach-patch/codes by viciousShadow
+
+
+//Money: 9999999z	
+/patch=1,EE,203ABF60,extended,0098967f
+
+
+//Start Quest by Quest Digit [English Only!]
+/	patch=1,EE,0036C1AE,extended,00000088//Village Mode (Offline/Single Mode): Your First Monster Hunt! (3 Velociprey) 	=x88[Default Value]	
+	patch=1,EE,0036C1AE,extended,00000094//Village Mode (Offline/Single Mode): Jungle Menace (Yian Kut-Ku) [Elder Hints, YKK Intro Movie] 	=x94	
+/	patch=1,EE,0036C1AE,extended,00000024//   Town Mode (Online/Network Mode): Jungle Menace (Yian Kut-Ku) 	=x24	
+/	patch=1,EE,0036C1AE,extended,00000000//Glitch: Jungle Area 8 Lobster Glitch 	=x00	
+/	patch=1,EE,0036C1AE,extended,000000c8//Tested [QD=x00..xC1|xC2..xC7=CrashOnQuestLoad|C8=JungleMenaceDummy]: Quest Digits like in full MH Game but all QD other than above start as town jungle menace quest	=xC8[Current]	
+
+
+//Reference Combo List: All 36 Item Combos
+/patch=1,EE,203AC580,extended,FFFFFFFF
+/patch=1,EE,003AC584,extended,0000000F
+//[CheatOnly]Reference Monster List: All 30 Monster Infos
+/patch=1,EE,203AC598,extended,3FFFFFFF
+//[CheatOnly]Player » Status » Comment: y2dX
+/patch=1,EE,203AC59C,extended,58643279
+
+
+//IBS001 (Has 303 Item Names)
+/patch=1,EE,203AC1DC,extended,00630055
+//IBS101..200: Spawn Item 001..100 x50
+/patch=1,EE,403AC36C,extended,00640001
+/patch=1,EE,00320001,extended,00000001
+//IBS101..200: Spawn Item 101..200 x50
+/patch=1,EE,403AC36C,extended,00640001
+/patch=1,EE,00320065,extended,00000001
+//IBS101..200: Spawn Item 201..300 x50
+/patch=1,EE,403AC36C,extended,00640001
+/patch=1,EE,003200C9,extended,00000001
+//IBS101..200: Spawn Item 301..336 x50
+/patch=1,EE,403AC36C,extended,00240001
+/patch=1,EE,0032012D,extended,00000001
+/patch=1,EE,403AC3FC,extended,00400001
+/patch=1,EE,00000000,extended,00000000
+
+
+//All Equi:	01 06 02 00 00 00 01 06 1F 00 00 00 01 06 9F 00 00 00 01 06 A8 00 00 00 01 07 02 00 00 00 01 02 01 00 00 00 01 03 01 00 00 00 01 04 01 00 00 00 01 05 01 00 00 00 01 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 02 03 00 00 00 01 03 03 00 00 00 01 04 03 00 00 00 01 05 03 00 00 00 01 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 02 04 00 00 00 01 03 04 00 00 00 01 04 04 00 00 00 01 05 04 00 00 00 01 00 04 00 00 00 00 00 00 00 00 00 00 00
+//EBS02+2n.100: All Melee in Box
+/patch=1,EE,403ABF84,extended,00320003
+/patch=1,EE,00010601,extended,00010000
+//patch=1,EE,00330601,extended,00010000
+//patch=1,EE,00650601,extended,00010000
+//patch=1,EE,00970601,extended,00010000
+//patch=1,EE,00c90601,extended,00010000
+//patch=1,EE,00fb0601,extended,00010000
+
+

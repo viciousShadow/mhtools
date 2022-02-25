@@ -1,0 +1,6 @@
+gametitle=Monster Hunter Demo [TLES_527.07] (EU-En/Fr/De/It/Es) [46DE4AB9]
+comment=pnach-patch/codes by viciousShadow
+comment	=_________________________________________
+
+comment	=Select Village Option
+patch=1,EE,20398B35,extended,00000001
